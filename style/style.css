@@ -1,0 +1,136 @@
+:root{
+  appearance:var(#e50914);
+  appearance:var(#141414);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+background:#141414;
+font-family: 'Arial', Times, serif;
+color: white;
+}
+
+header .container{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+
+header .logo{
+  left: 12.06%;
+right: 73.3%;
+top: 23.75%;
+bottom: 72.25%;
+  mix-blend-mode: lighten;
+  color:#D81F26;
+  font-family:'Bebas Neue', cursive;
+  font-size: 40px;
+}
+
+header nav a{
+  text-decoration: none;
+  color: #aaa;
+  margin-right: 10px;
+}
+
+header nav a:hover{
+  color: #fff;
+}
+
+.filme-principal{
+  font-size: 16px;
+  background: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)), url(/img/AAAABSjmGbTRKGriuBr3O6aT3ice6_yB7-Kq1lwpRP1QmZSDmvWN0Du_0cqlaDONncNIQdUEb2Q5NzAurjUQvxwSHsmbUCjc.jpg);
+
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.filme-principal .descricao{
+  margin-bottom: 40px;
+  margin-bottom: 40px ;
+}
+
+.filme-principal .titulo{
+  margin-top: 15%;
+  font-size: 40px;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao1{
+  box-shadow: 0px 4px 30px rgba(216, 31, 38, 0.5);
+  border-radius: 30px;
+  background-color: #D81F26;
+  border: none;
+  color: white;
+
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: 12px;
+
+  cursor: pointer;
+  transition: .3s  ease all;
+
+}
+
+.botao1:hover{
+  background-color: white;
+  color:black;
+}
+
+.botao1 i{
+  margin-right: 8px;
+}
+.botao2{
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  background-color: #0a04046d;
+  border: none;
+  color: white;
+
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: 12px;
+
+  cursor: pointer;
+  transition: .3s  ease all;
+
+}
+
+.botao2:hover{
+  background-color: white;
+  color:black;
+}
+
+.botao2 i{
+  margin-right: 8px;
+}
+
+.container{
+  margin-left: 30px;
+}
+
+.botoes{
+  margin-left: 30px;
+}
+
+.filme-principal .container{
+  width: 70%;
+}
+
+.box-filme{
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+.carrosel-filmes{
+  margin-top: 5px;
+}
