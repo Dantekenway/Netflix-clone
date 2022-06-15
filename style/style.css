@@ -45,7 +45,7 @@ header nav a:hover{
 
 .filme-principal{
   font-size: 16px;
-  background: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)), url(/img/AAAABSjmGbTRKGriuBr3O6aT3ice6_yB7-Kq1lwpRP1QmZSDmvWN0Du_0cqlaDONncNIQdUEb2Q5NzAurjUQvxwSHsmbUCjc.jpg);
+  background: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)), url(.//img/AAAABSjmGbTRKGriuBr3O6aT3ice6_yB7-Kq1lwpRP1QmZSDmvWN0Du_0cqlaDONncNIQdUEb2Q5NzAurjUQvxwSHsmbUCjc.jpg);
 
   height: 400px;
   background-size: cover;
